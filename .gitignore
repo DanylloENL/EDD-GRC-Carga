@@ -1,0 +1,31 @@
+# Dados de entrada e saída (sensíveis e/ou grandes)
+output/**/*.csv
+output/**/*.txt
+recursos/*.csv
+recursos/*.txt
+recursos/*.CSV
+
+# Manter estrutura das pastas
+!output/.gitkeep
+!recursos/.gitkeep
+
+# Arquivos temporários Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ambientes virtuais
+venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema
+.DS_Store
+Thumbs.db
